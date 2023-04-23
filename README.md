@@ -4,4 +4,4 @@
 
 - The Solution Link: [go to solution]()
 
-- Live demo: [Demo](https://github.com/noob-web-dev/four-card/deployments/activity_log?environment=github-pages)
+- Live demo: [Demo](https://noob-web-dev.github.io/four-card/)
