@@ -118,7 +118,7 @@ main {
 
 .heading > h1 > span {
   display: block;
-  font-weight: var(--f-weight-r);
+  font-weight: var(--f-weight-l);
 }
 .heading > h1 > span + span {
   font-size: 0.95em;
@@ -153,7 +153,7 @@ main {
 }
 .card > h2 {
   font-size: 1.25em;
-  font-weight: var(--f-weight-b);
+  font-weight: var(--f-weight-r);
 }
 .card > p {
   font-size: 0.8em;
