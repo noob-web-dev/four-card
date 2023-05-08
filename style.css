@@ -124,25 +124,39 @@ main {
   font-size: 0.95em;
   font-weight: var(--f-weight-b);
 }
-
+#supe {
+  border-top: 0.2em solid var(--clr-p-cyan);
+}
+#team {
+  border-top: 0.2em solid var(--clr-p-red);
+}
+#karm {
+  border-top: 0.2em solid var(--clr-p-orange);
+}
+#calc {
+  border-top: 0.2em solid var(--clr-p-blue);
+}
 .card {
   font-size: var(--f-size);
   width: 100%;
   padding: 2em 2.125em;
   background-color: white;
-  border-top: 0.2em solid var(--clr-p-cyan);
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.4rem 1rem 0 hsl(var(--clr-n-grayish-blue-a), 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 .card > img {
   margin-left: calc(100% - 64px);
+  margin-top: 1rem;
 }
 .card > h2 {
-  font-size: 1.5em;
-  font-weight: var(--f-weight-r);
+  font-size: 1.25em;
+  font-weight: var(--f-weight-b);
 }
 .card > p {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .three-col {
@@ -152,15 +166,21 @@ main {
   margin: 4em 0;
 }
 @media (max-width: 800px) {
-  .four-card{
+  .four-card {
     max-width: 400px;
   }
-  .three-col{
+  .three-col {
     grid-template-columns: none;
     grid-template-rows: 1fr 2fr 1fr;
   }
-  .heading{
+  .heading {
     width: auto;
+  }
+  .heading > h1 {
+    font-size: 1.5em;
+  }
+  .heading > p {
+    font-size: 0.8em;
   }
 }
 
