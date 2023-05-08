@@ -105,15 +105,10 @@ main {
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* text-align: center; */
-  /* gap: 1rem; */
 }
 
 .heading > h1 {
-  font-size: 2.125em;
+  font-size: 2em;
 }
 
 .heading > h1 > span {
@@ -166,15 +161,15 @@ main {
   margin: 4em 0;
 }
 @media (max-width: 800px) {
-  .four-card {
+  /* .four-card {
     max-width: 400px;
-  }
+  } */
   .three-col {
     grid-template-columns: none;
     grid-template-rows: 1fr 2fr 1fr;
   }
   .heading {
-    width: auto;
+    width: 100%;
   }
   .heading > h1 {
     font-size: 1.5em;
